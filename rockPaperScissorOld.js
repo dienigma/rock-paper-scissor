@@ -18,13 +18,13 @@ function computerPlay() {
 }
 
 function game() {
-  // for (let i = 0; i < 5; i++) {
-  //   const result = prompt(
-  //     `Welcome to Rock Paper Scissor! Choose one of Rock, Paper or Scissor`
-  //   );
-  //   const computerSelection = computerPlay();
-  //   console.log(playRound(result, computerSelection));
-  // }
+  for (let i = 0; i < 5; i++) {
+    const result = prompt(
+      `Welcome to Rock Paper Scissor! Choose one of Rock, Paper or Scissor`
+    );
+    const computerSelection = computerPlay();
+    console.log(playRound(result, computerSelection));
+  }
 }
 
 game();
